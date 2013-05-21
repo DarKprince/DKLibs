@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dklibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dklibs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

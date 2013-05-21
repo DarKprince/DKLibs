@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DkLibs</string>
+    <!-- Common -->
+    <string name="common_appName">RainbowLibs</string>
+    <string name="common_btnOk">OK</string>
+    <string name="common_btnYes">Yes</string>
+    <string name="common_btnNo">No</string>
+    <string name="common_btnCancel">Cancel</string>
+    <string name="common_mnuSave">Save</string>
+    <string name="common_mnuCancel">Cancel</string>
+    <string name="common_msgArchitecturalError">Inner application error:\n%s\n\nPlease, report it to the developer.</string>
+    <string name="common_msgCommunicationError">Generic communication error:\n%s\n\nNetwork issues, or maybe the server has problem or is down...</string>
+    <string name="common_msgExecutingCommand">Executing command...</string>
+    <string name="common_msgAppExpiredError">Application expired</string>
+    <string name="common_msgGenericError">Generic error: %s</string>
+    <string name="common_msgNoErrorMessage">No error result code managed.</string>
+    <string name="common_msgAskForCrashReportEmailTitle">Error reporting</string>
+    <string name="common_msgAskForCrashReportEmail">A previous run of the application crashed with errors.\nDo you want to send an email to the developer with crash information?</string>
+    <string name="common_msgInfoboxTitle">Welcome</string>
+    <string name="common_msgGatheringLogs">Collecting application logs</string>
+    <string name="common_msgCannotStartMarketIntent">Sorry, i cannot launch Android Market on this device</string>
+    <string name="common_sendEmailChooser">Select email application</string>
+    <string name="common_sendlogSubject">Log %s</string>
+    <string name="common_sendlogBody">Dear developer,\n I\'m sending application log because (add here report cause / problem encountered)\n\n\n%s</string>
+
+    <!-- BaseAboutActivity -->
+    <string name="about_title">%s - About</string>
+    <string name="about_lblAuthor">by Alfredo Morresi</string>
+    <string name="about_lblWebsite">Rainbowbreeze.it</string>
+    <string name="about_lblDescription">Insert here brief application description</string>
+    <string name="about_lblDescription2">Insert here greetings, notes etc,</string>
+    <string name="about_mnuChangeslog">Changeslog</string>
+    <string name="about_mnuEmail">Email to developer</string>
+    <string name="about_msgChangeslogTitle">Changeslog</string>
+    <string name="about_msgChangeslog">v1.0:\n -First release</string>
+    <string name="about_msgEmailSubject">About your %1$s %2$s application...</string>
+    <string name="about_msgEmailBody">Hi Alfredo,\n\n</string>
+
+    <!-- BaseSettingsMainActivity -->
+    <string name="settingsmain_title">%s - Settings</string>
+    <string name="settingsmain_lblApplicationCategory">Application</string>
+    <string name="settingsmain_lblProvidersCategory">SMS Providers</string>
+    <string name="settingsmain_lblDebugCategory">Debug</string>
+    <string name="settingsmain_lblProvidersList">Providers settings</string>
+    <string name="settingsmain_lblProvidersListSummary">Specify the configuration for each SMS provider</string>
+    <string name="settingsmain_lblTemplatesList">Templates</string>
+    <string name="settingsmain_lblTemplatesListSummary">Add, modify, remove, message templates</string>
+    <string name="settingsmain_lblSendLog">Send log</string>
+    <string name="settingsmain_lblSendLogSummary">Send application log to developer, useful to discover failure causes</string>
+    <string name="settingsmain_chkResetDataAfterSend">Reset after send</string>
+    <string name="settingsmain_chkResetDataAfterSendSummary">Clear destination and message after send sms</string>
+    <string name="settingsmain_chkInsertSmsIntoPim">Insert SMS into Sent</string>
+    <string name="settingsmain_chkInsertSmsIntoPimSummary">When an SMS is sent, insert it into the Sent folder</string>
+    <string name="settingsmain_txtSignature">Signature</string>
+    <string name="settingsmain_txtSignatureSummary">Signature to use in the message</string>
+    <string name="settingsmain_txtDefaultInternationalPrefix">Default prefix</string>
+    <string name="settingsmain_txtDefaultInternationalPrefixSummary">Default international prefix to use when another prefix is not used</string>
+    <string name="settingsmain_msgNoSmsProviderAvailable">Sorry, this function isn\'t supported for your device model</string>
+
+    <!-- BaseSplashscreenActivity -->
+    <string name="splashscreen_lblTitle">%s is loading</string>
+    <string name="splashscreen_lblErrors">Something goes wrong during initialization. :(\n\nTry to relaunch the application again and, if the problem still persists, send logs to developer, maybe is a common issue and could be fixed.</string>
+    <string name="splashscreen_lblThankYouForLogs">Thank you for sending logs.\n\nCheck the Market for new releases, maybe the bug will be fixed soon!</string>
+    <string name="splashscreen_btnSendLogs">Send logs to developer</string>
+    <string name="splashscreen_btnStartApplication">Start the application</string>
+    <string name="splashscreen_msgExecutingBeginTasks">Initializing app...</string>
+    <string name="title_activity_left_slide">LeftSlideActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="crash_msg">Qualcosa è andato storto nell\'ultima esecuzione. Vuole inviare un report agli
+        sviluppatori?
+    </string>
+
+</resources>

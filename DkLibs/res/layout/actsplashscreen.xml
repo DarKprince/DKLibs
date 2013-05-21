@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/splashscreen_background" >
+
+    <!-- Background -->
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter" />
+
+    <!-- Make the background darker -->
+
+    <LinearLayout
+        android:id="@+id/actsplashscreen_layShadowOverlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#99000000" />
+
+    <!-- Thank you for sending logs label -->
+
+    <TextView
+        android:id="@+id/actsplashscreen_lblThankYouForLogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splashscreen_lblThankYouForLogs" />
+
+    <Button
+        android:id="@+id/actsplashscreen_btnStartApplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splashscreen_btnStartApplication" />
+
+    <!-- Errors in initialization -->
+
+    <TextView
+        android:id="@+id/actsplashscreen_lblErrors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/splashscreen_lblErrors" />
+
+    <Button
+        android:id="@+id/actsplashscreen_btnSendLogs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/splashscreen_btnSendLogs" />
+
+</RelativeLayout>
